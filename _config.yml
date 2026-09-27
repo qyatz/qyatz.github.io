@@ -288,8 +288,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tsukamoto, 悠太]
+  first_name: [Yuta, Y., 塚本]
 
   style: apa
   locale: en
@@ -332,6 +332,7 @@ filtered_bibtex_keywords:
     award,
     award_name,
     bibtex_show,
+    category,
     blog,
     code,
     dimensions,
