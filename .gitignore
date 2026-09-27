@@ -15,3 +15,6 @@ node_modules/
 output/playwright/
 test-results/
 vendor
+
+# Plaintext sources of password-protected pages (see bin/protect-page.mjs)
+_private/
