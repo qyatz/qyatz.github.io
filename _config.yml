@@ -134,6 +134,8 @@ newsletter:
 collections:
   books:
     output: true
+  hobbies:
+    output: true
   news:
     defaults:
       layout: post
