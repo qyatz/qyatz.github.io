@@ -51,13 +51,94 @@ cv:
         summary: 
 
     Publications:
-      - title: 
-        authors:
-          - 
-        publisher: 
-        releaseDate: 
-        url: 
-        summary: 
+      - title: "Comparative Verification of 3D Reconstructed Point Cloud Data: Comparison of AI Estimation and Multi-View Stereo Methods using Nerfstudio and Metashape"
+        publisher: "SICE Journal of Control, Measurement, and System Integration (JCMSI), Vol. 18, No. 1, p. 2497600"
+        releaseDate: "2025"
+        url: "https://doi.org/10.1080/18824889.2025.2497600"
+        summary: "**Y. Tsukamoto**, A. Hayashi, K. Tokuda, N. Kochi — Journal paper (peer-reviewed)"
+
+      - title: "Active Acoustic Sensing of Ground Surface Condition Using a Drone-Mounted Speaker–Microphone Array"
+        publisher: "Drones, Vol. 10, No. 4, p. 258"
+        releaseDate: "2026"
+        url: "https://doi.org/10.3390/drones10040258"
+        summary: "K. Hoshiba, K. Shirota, **Y. Tsukamoto**, H. Yamaura — Journal paper (peer-reviewed)"
+
+      - title: "Proposal of a Fastening Method for Deformable Plastic Parts and Rigid Metal Parts"
+        publisher: "2023 IEEE/SICE International Symposium on System Integration (SII), pp. 1–6, USA"
+        releaseDate: "2023-01"
+        url: "https://doi.org/10.1109/SII55687.2023.10039451"
+        summary: "G. Endo, **Y. Tsukamoto**, H. Nabae, T. Takaki — International conference (oral, peer-reviewed)"
+
+      - title: "Measurement of Creep Deformation of Resin Structural Parts for a Lightweight Industrial Robot"
+        publisher: "2024 IEEE/SICE International Symposium on System Integration (SII), pp. 592–597, Vietnam"
+        releaseDate: "2024-01"
+        url: "https://doi.org/10.1109/SII58957.2024.10417463"
+        summary: "**Y. Tsukamoto**, K. Sekiguchi, H. Nabae, G. Endo — International conference (oral, peer-reviewed)"
+
+      - title: "Comparative Verification of 3D Reconstructed Point Cloud Data: Comparison of AI Estimation and Multi-View Stereo Methods using Nerfstudio and Metashape"
+        publisher: "SICE Festival 2024 with Annual Conference, Japan"
+        releaseDate: "2024-08"
+        summary: "**Y. Tsukamoto**, A. Hayashi, K. Tokuda, N. Kochi — International conference (oral, peer-reviewed)"
+
+      - title: "Stiffness Measurement and Modeling of Robot Arm Consisting of Single Geared Joint and Link Made of Different Materials"
+        publisher: "2025 IEEE/SICE International Symposium on System Integration (SII), pp. 315–319, Germany"
+        releaseDate: "2025-01"
+        summary: "N. Takesue, K. Sugihara, G. Endo, **Y. Tsukamoto**, T. Takaki — International conference (oral, peer-reviewed)"
+
+      - title: "Development of a Versatile Structure for Mounting Drone Audition-Purposed Measurement Equipment"
+        publisher: "2025 IEEE/SICE International Symposium on System Integration (SII), pp. 1028–1033, Germany"
+        releaseDate: "2025-01"
+        summary: "**Y. Tsukamoto**, K. Hoshiba, N. Iwatsuki — International conference (oral, peer-reviewed)"
+
+      - title: "Creep Deformation Measurement of Fiber-Reinforced Plastic Materials for Industrial Robot Applications"
+        publisher: "2025 IEEE/SICE International Symposium on System Integration (SII), pp. 320–325, Germany"
+        releaseDate: "2025-01"
+        url: "https://doi.org/10.1109/SII59315.2025.10871048"
+        summary: "K. Sekiguchi, **Y. Tsukamoto**, H. Nabae, G. Endo — International conference (oral, peer-reviewed)"
+
+      - title: "Quantitative Evaluation of Energy Savings in a 3-DOF Manipulator via Lightweighting with Plastic Structural Parts"
+        publisher: "2026 IEEE/SICE International Symposium on System Integration (SII), pp. 1634–1639, Mexico"
+        releaseDate: "2026-01"
+        summary: "K. Sekiguchi, N. Kanai, **Y. Tsukamoto**, H. Nabae, T. Aruga, T. Takaki, N. Takesue, Y. Ota, G. Endo — International conference (oral, peer-reviewed)"
+
+      - title: "Evaluation of Developed Structures for Drone Audition-purposed Measurement Equipment in Actual Flight Conditions"
+        publisher: "2026 IEEE/SICE International Symposium on System Integration (SII), pp. 464–470, Mexico"
+        releaseDate: "2026-01"
+        summary: "**Y. Tsukamoto**, K. Hoshiba — International conference (oral, peer-reviewed)"
+
+      - title: "ドローン聴覚における計測機器搭載のための汎用性の高いジグの開発"
+        publisher: "日本ロボット学会学術講演会, 2A2-06, 大阪"
+        releaseDate: "2024-09"
+        summary: "**塚本悠太**, 干場功太郎 — 国内学会（口頭）"
+
+      - title: "ドローン聴覚のための計測機器搭載用治具の開発における強度・振動解析"
+        publisher: "人工知能学会 第66回 AIチャレンジ研究会, pp. 69–76, 横浜"
+        releaseDate: "2024-12"
+        summary: "**塚本悠太**, 干場功太郎, 岩附信行 — 国内学会（口頭）"
+
+      - title: "全節共通駆動ワイヤと選択関節ロック解除機構を有する進展型多関節アーム“Moray Arm S”の提案"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2025, 1A2-P03, 山形"
+        releaseDate: "2025-06"
+        summary: "**塚本悠太**, 岡朋宏, 広瀬茂男 — 国内学会（ポスター）"
+
+      - title: "廃炉現場における高線量スラッジ遠隔回収ロボット「Kumade-H」の開発"
+        publisher: "日本ロボット学会学術講演会, 3H1-04, 東京"
+        releaseDate: "2025-09"
+        summary: "木村直人, 和田周賢, **塚本悠太**, 広瀬茂男 — 国内学会（口頭）"
+
+      - title: "微小構造変更後の応答加速度を用いた構造物の仮想加振源の推定"
+        publisher: "日本機械学会 2025年度年次大会, 札幌"
+        releaseDate: "2025-09"
+        summary: "**塚本悠太**, 干場功太郎, 有賀嵩紘, 岩附信行 — 国内学会（口頭）"
+
+      - title: "ドローン聴覚のための計測機器搭載用治具の実飛行条件下での評価"
+        publisher: "人工知能学会 第68回 AIチャレンジ研究会, pp. 28–35, 横浜"
+        releaseDate: "2025-12"
+        summary: "**塚本悠太**, 干場功太郎 — 国内学会（口頭・ポスター）"
+
+      - title: "Others"
+        publisher: "Domestic poster presentations (non-peer-reviewed)"
+        summary: "11 presentations, including 1 upcoming"
 
     Skills:
       - name: 

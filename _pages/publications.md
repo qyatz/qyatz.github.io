@@ -24,4 +24,6 @@ nav_order: 2
 <h2 class="bibliography">Domestic Conferences (Non-peer-reviewed)</h2>
 {% bibliography --query @*[category=domestic] %}
 
+<p>Others: 11 domestic poster presentations (non-peer-reviewed), including 1 upcoming.</p>
+
 </div>
