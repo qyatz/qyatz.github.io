@@ -8,32 +8,49 @@
   .post > .post-header {
     display: none;
   }
-  .about-main > .post-title {
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 28%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "head photo"
+      "career photo";
+    column-gap: 2rem;
+    align-items: start;
+  }
+  .about-head {
+    grid-area: head;
+  }
+  .about-head .post-title {
     margin-top: 0;
+  }
+  .about-career {
+    grid-area: career;
+  }
+  .about-career td:first-child {
+    white-space: nowrap;
+  }
+  .about-photo {
+    grid-area: photo;
   }
   .about-photo figure,
   .about-photo img {
     margin-top: 0;
   }
-  .about-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 28%;
-    gap: 2rem;
-    align-items: start;
-  }
-  .about-main td:first-child {
-    white-space: nowrap;
-  }
   @media (max-width: 767px) {
     .about-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr) 35%;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "head photo"
+        "career career";
+      column-gap: 1rem;
     }
-    .about-photo {
-      order: -1;
-      max-width: 320px;
+    .about-head .post-title {
+      font-size: 1.75rem;
     }
   }
-</style> <div class="about-grid"> <div class="about-main"> <h1 class="post-title">Yuta Tsukamoto</h1> <p class="desc"> Doctoral Student / Institute of Science Tokyo</p> <h2 id="career">Career</h2> <table> <thead> <tr> <th>Period</th> <th>Degree / Program</th> </tr> </thead> <tbody> <tr> <td>Apr 2025 – present</td> <td>Doctoral Program, Department of Mechanical Engineering, Institute of Science Tokyo</td> </tr> <tr> <td>Apr 2023 – Mar 2025</td> <td>Master’s Program, Department of Mechanical Engineering, Tokyo Institute of Technology (Institute of Science Tokyo since October 2024)</td> </tr> <tr> <td>Apr 2019 – Mar 2023</td> <td>Bachelor’s Program, Department of Mechanical Engineering, Tokyo Institute of Technology</td> </tr> </tbody> </table> </div> <div class="about-photo"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Jun 30, 2026</th> <td> Received the <strong>JSME Young Engineers Fellow Award</strong> (日本機械学会 若手優秀講演フェロー賞) for the presentation “全節共通駆動ワイヤと選択関節ロック解除機構を有する伸展型多関節アーム “Moray Arm S” の提案” at ROBOMECH2025. </td> </tr> <tr> <th scope="row" style="width: 20%">Mar 26, 2025</th> <td> Received the <strong>SICE Excellent Student Award</strong> (計測自動制御学会 優秀学生賞) from the Society of Instrument and Control Engineers. </td> </tr> </table> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Yuta Tsukamoto. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
+</style> <div class="about-grid"> <div class="about-head"> <h1 class="post-title">Yuta Tsukamoto</h1> <p class="desc"> Doctoral Student / Institute of Science Tokyo</p> </div> <div class="about-career"> <h2 id="career">Career</h2> <table> <thead> <tr> <th>Period</th> <th>Degree / Program</th> </tr> </thead> <tbody> <tr> <td>Apr 2025 – present</td> <td>Doctoral Program, Department of Mechanical Engineering, Institute of Science Tokyo</td> </tr> <tr> <td>Apr 2023 – Mar 2025</td> <td>Master’s Program, Department of Mechanical Engineering, Tokyo Institute of Technology (Institute of Science Tokyo since October 2024)</td> </tr> <tr> <td>Apr 2019 – Mar 2023</td> <td>Bachelor’s Program, Department of Mechanical Engineering, Tokyo Institute of Technology</td> </tr> </tbody> </table> </div> <div class="about-photo"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"></source> <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="100%" height="auto" alt="prof_pic.jpg" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> </div> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Jun 30, 2026</th> <td> Received the <strong>JSME Young Engineers Fellow Award</strong> (日本機械学会 若手優秀講演フェロー賞) for the presentation “全節共通駆動ワイヤと選択関節ロック解除機構を有する伸展型多関節アーム “Moray Arm S” の提案” at ROBOMECH2025. </td> </tr> <tr> <th scope="row" style="width: 20%">Mar 26, 2025</th> <td> Received the <strong>SICE Excellent Student Award</strong> (計測自動制御学会 優秀学生賞) from the Society of Instrument and Control Engineers. </td> </tr> </table> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Yuta Tsukamoto. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
