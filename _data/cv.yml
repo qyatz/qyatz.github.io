@@ -21,6 +21,17 @@ cv:
     Education:
       - institution: Institute of Science Tokyo
         location: Tokyo, Japan
+        url: https://www.isct.ac.jp/
+        area: Mechanical Engineering
+        studyType: Doctor
+        start_date: 2025
+        end_date: present
+        score: ""
+        courses: "Mechanical Engineering"
+        highlights:
+
+      - institution: Institute of Science Tokyo
+        location: Tokyo, Japan
         url: https://www.titech.ac.jp/
         area: Mechanical Engineering
         studyType: Master
@@ -42,13 +53,45 @@ cv:
         highlights:
 
     Awards:
-      - title: 
-        authors:
-          - ""
-        date: 
-        awarder: 
-        url: 
-        summary: 
+      - title: "SICE Excellent Student Award"
+        awarder: "The Society of Instrument and Control Engineers (SICE)"
+        date: "2025-03"
+        summary: "計測自動制御学会 優秀学生賞"
+
+      - title: "Judges' Special Award, 14th CatchRobo Battle Contest 2024"
+        awarder: "CatchRobo Battle Contest"
+        date: "2024-09"
+        url: "https://catchrobo.net/"
+        summary: "Team 工業to科学 (Tokyo Institute of Technology) — 第14回キャチロボバトルコンテスト 2024 審査員特別賞"
+
+      - title: "Judges' Special Award, NHK \"Makaizo no Yoru\" No. 9"
+        awarder: "NHK"
+        date: "2024-01"
+        summary: "Team T工大 — NHK 魔改造の夜 第9回「おトイレ ゆか 宙返り」審査員特別賞"
+
+      - title: "Best Mission Award 1st, ARLISS 2023"
+        awarder: "ARLISS"
+        date: "2023-09"
+        url: "https://unisec.jp/archives/10330"
+        summary: "CanSat Project Tlaloc (Tokyo Institute of Technology)"
+
+      - title: "2nd Place Overall, ACTS 2nd Competition"
+        awarder: "ACTS"
+        date: "2021-11"
+        url: "https://unisec.jp/archives/7897"
+        summary: "Team Elec. TETRA (Tokyo Institute of Technology) — ACTS 第二回大会 総合第二位"
+
+      - title: "UNISEC Award, ACTS 2nd Competition"
+        awarder: "ACTS"
+        date: "2021-11"
+        url: "https://unisec.jp/archives/7897"
+        summary: "Team Elec. TETRA (Tokyo Institute of Technology) — ACTS 第二回大会 UNISEC賞"
+
+      - title: "Technical System Award 2nd Place, ACTS 2nd Competition"
+        awarder: "ACTS"
+        date: "2021-11"
+        url: "https://unisec.jp/archives/7897"
+        summary: "Team Elec. TETRA (Tokyo Institute of Technology) — ACTS 第二回大会 テクニカルシステム賞第二位"
 
     Publications:
       - title: "Comparative Verification of 3D Reconstructed Point Cloud Data: Comparison of AI Estimation and Multi-View Stereo Methods using Nerfstudio and Metashape"
@@ -106,8 +149,28 @@ cv:
         releaseDate: "2026-01"
         summary: "**Y. Tsukamoto**, K. Hoshiba — International conference (oral, peer-reviewed)"
 
-      - title: "ドローン聴覚における計測機器搭載のための汎用性の高いジグの開発"
-        publisher: "日本ロボット学会学術講演会, 2A2-06, 大阪"
+      - title: "炭素繊維不織布による強化樹脂材の特性評価 ―3点曲げにおける有限要素法と実験の比較―"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2023, 1A1-I21, 名古屋"
+        releaseDate: "2023-06"
+        summary: "**塚本悠太**, 遠藤玄, 難波江裕之 — 国内学会（ポスター）"
+
+      - title: "木材における継手・仕口加工の3Dプリント部品への適用"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2023, 1A2-I21, 名古屋"
+        releaseDate: "2023-06"
+        summary: "**塚本悠太**, 遠藤玄, 難波江裕之 — 国内学会（ポスター）"
+
+      - title: "リンク部材と一軸関節から構成されるロボットアームの剛性測定およびモデリング"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2024, 1P1-P02, 宇都宮"
+        releaseDate: "2024-05"
+        summary: "武居直行, 杉原一真, 遠藤玄, **塚本悠太**, 高木健 — 国内学会（ポスター）"
+
+      - title: "産業用ロボットへの適用に向けた繊維強化樹脂材のクリープ変形量計測"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2024, 1P1-P05, 宇都宮"
+        releaseDate: "2024-05"
+        summary: "関口兼司, **塚本悠太**, 難波江裕之, 遠藤玄 — 国内学会（ポスター）"
+
+      - title: "ドローン聴覚における計測機器搭載のための汎用性の高い治具の開発"
+        publisher: "第42回 日本ロボット学会学術講演会, 2A2-06, 大阪"
         releaseDate: "2024-09"
         summary: "**塚本悠太**, 干場功太郎 — 国内学会（口頭）"
 
@@ -116,13 +179,38 @@ cv:
         releaseDate: "2024-12"
         summary: "**塚本悠太**, 干場功太郎, 岩附信行 — 国内学会（口頭）"
 
-      - title: "全節共通駆動ワイヤと選択関節ロック解除機構を有する進展型多関節アーム“Moray Arm S”の提案"
+      - title: "産業応用に向けた3Dプリンタ製機構部品 第10報: 簡易クリープ試験法の提案とチタン酸カリウム繊維強化樹脂のクリープ試験"
+        publisher: "第25回 計測自動制御学会システムインテグレーション部門講演会, 2E5-01, 盛岡"
+        releaseDate: "2024-12"
+        summary: "金井規聡, **塚本悠太**, 遠藤玄 — 国内学会（ポスター）"
+
+      - title: "支圧接合により固定された樹脂製片持ち梁の見なし曲げ応力－ひずみ特性"
+        publisher: "第25回 計測自動制御学会システムインテグレーション部門講演会, 2E5-02, 盛岡"
+        releaseDate: "2024-12"
+        summary: "関口兼司, **塚本悠太**, 難波江裕之, 高木健, 遠藤玄 — 国内学会（ポスター）"
+
+      - title: "全節共通駆動ワイヤと選択関節ロック解除機構を有する伸展型多関節アーム“Moray Arm S”の提案"
         publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2025, 1A2-P03, 山形"
         releaseDate: "2025-06"
         summary: "**塚本悠太**, 岡朋宏, 広瀬茂男 — 国内学会（ポスター）"
 
+      - title: "支圧接合により固定された樹脂製片持ち梁の軸方向荷重に対する見なし曲げ応力－ひずみ特性"
+        publisher: "第43回 日本ロボット学会学術講演会, 1P1-04, 東京"
+        releaseDate: "2025-09"
+        summary: "**塚本悠太**, 難波江裕之, 有賀嵩紘, 遠藤玄 — 国内学会（ポスター）"
+
+      - title: "Comparison of Three-Points Bending Tests On Short Fiber-reinforced Materials Manufactured by a 3D Printer"
+        publisher: "第43回 日本ロボット学会学術講演会, 1P1-07, 東京"
+        releaseDate: "2025-09"
+        summary: "G. Endo, J. Rivollier, P. Barberan, **Y. Tsukamoto**, N. Kanai, T. Aruga, R. Hodoshima — 国内学会（ポスター）"
+
+      - title: "リンク部材と一軸関節から構成されるロボットアームの締結軸力・変位測定"
+        publisher: "第43回 日本ロボット学会学術講演会, 1P3-03, 東京"
+        releaseDate: "2025-09"
+        summary: "武居直行, 千代窪美穂, 遠藤玄, **塚本悠太**, 高木健 — 国内学会（ポスター）"
+
       - title: "廃炉現場における高線量スラッジ遠隔回収ロボット「Kumade-H」の開発"
-        publisher: "日本ロボット学会学術講演会, 3H1-04, 東京"
+        publisher: "第43回 日本ロボット学会学術講演会, 3H1-04, 東京"
         releaseDate: "2025-09"
         summary: "木村直人, 和田周賢, **塚本悠太**, 広瀬茂男 — 国内学会（口頭）"
 
@@ -131,14 +219,35 @@ cv:
         releaseDate: "2025-09"
         summary: "**塚本悠太**, 干場功太郎, 有賀嵩紘, 岩附信行 — 国内学会（口頭）"
 
+      - title: "3Dプリント製樹脂部品の金属部品への摩擦接合及び支圧接合による締結部の設計法"
+        publisher: "日本設計工学会 2025年度秋季大会研究発表講演会, 長崎"
+        releaseDate: "2025-11"
+        summary: "**塚本悠太**, 有賀嵩紘, 遠藤玄 — 国内学会"
+
+      - title: "繊維強化PPSフィラメントを用いた3Dプリントにおける結晶化度の評価"
+        publisher: "日本付加製造学会 2025年度講演会 (JCAM2025), 2A-08, 札幌"
+        releaseDate: "2025-11"
+        summary: "**塚本悠太**, 山下晴哉, 北島孝志, 兼清真人, 有賀嵩紘, 遠藤玄 — 国内学会（口頭）"
+
+      - title: "炭素繊維不織布強化樹脂部品の金属部品への接合法の評価"
+        publisher: "第26回 計測自動制御学会システムインテグレーション部門講演会, 1A5-01, 広島"
+        releaseDate: "2025-12"
+        summary: "**塚本悠太**, 難波江裕之, 有賀嵩紘, 遠藤玄 — 国内学会（ポスター）"
+
       - title: "ドローン聴覚のための計測機器搭載用治具の実飛行条件下での評価"
         publisher: "人工知能学会 第68回 AIチャレンジ研究会, pp. 28–35, 横浜"
         releaseDate: "2025-12"
         summary: "**塚本悠太**, 干場功太郎 — 国内学会（口頭・ポスター）"
 
-      - title: "Others"
-        publisher: "Domestic poster presentations (non-peer-reviewed)"
-        summary: "11 presentations, including 1 upcoming"
+      - title: "チタン酸カリウム繊維強化樹脂製3Dプリント部品のクリープ特性の評価"
+        publisher: "日本機械学会ロボティクス・メカトロニクス講演会 2026, 1P1-V02, 福岡"
+        releaseDate: "2026-06"
+        summary: "**塚本悠太**, 北島孝志, 山下晴哉, 金井規聡, 有賀嵩紘, 遠藤玄 — 国内学会（ポスター）"
+
+      - title: "インサートナットを用いて締結した3Dプリント部品の軸方向締結力の計測"
+        publisher: "第44回 日本ロボット学会学術講演会, 3E1-01, 金沢"
+        releaseDate: "2026-09"
+        summary: "**塚本悠太**, 有賀嵩紘, 遠藤玄 — 国内学会（口頭）"
 
     Skills:
       - name: 
