@@ -53,9 +53,14 @@ cv:
         highlights:
 
     Awards:
+      - title: "JSME Young Engineers Fellow Award"
+        awarder: "The Japan Society of Mechanical Engineers (JSME)"
+        date: "2026-06-30"
+        summary: "日本機械学会 若手優秀講演フェロー賞 — ROBOMECH2025「全節共通駆動ワイヤと選択関節ロック解除機構を有する伸展型多関節アーム “Moray Arm S” の提案」"
+
       - title: "SICE Excellent Student Award"
         awarder: "The Society of Instrument and Control Engineers (SICE)"
-        date: "2025-03"
+        date: "2025-03-26"
         summary: "計測自動制御学会 優秀学生賞"
 
       - title: "Judges' Special Award, 14th CatchRobo Battle Contest 2024"
@@ -117,11 +122,6 @@ cv:
         releaseDate: "2024-01"
         url: "https://doi.org/10.1109/SII58957.2024.10417463"
         summary: "**Y. Tsukamoto**, K. Sekiguchi, H. Nabae, G. Endo — International conference (oral, peer-reviewed)"
-
-      - title: "Comparative Verification of 3D Reconstructed Point Cloud Data: Comparison of AI Estimation and Multi-View Stereo Methods using Nerfstudio and Metashape"
-        publisher: "SICE Festival 2024 with Annual Conference, Japan"
-        releaseDate: "2024-08"
-        summary: "**Y. Tsukamoto**, A. Hayashi, K. Tokuda, N. Kochi — International conference (oral, peer-reviewed)"
 
       - title: "Stiffness Measurement and Modeling of Robot Arm Consisting of Single Geared Joint and Link Made of Different Materials"
         publisher: "2025 IEEE/SICE International Symposium on System Integration (SII), pp. 315–319, Germany"

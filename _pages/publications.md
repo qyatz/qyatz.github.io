@@ -9,6 +9,16 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<!-- Use the full row width for publication entries (the theme leaves the right 2/12 empty) -->
+<style>
+  @media (min-width: 576px) {
+    .publications .row > .col-sm-8 {
+      flex: 0 0 83.3333%;
+      max-width: 83.3333%;
+    }
+  }
+</style>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
