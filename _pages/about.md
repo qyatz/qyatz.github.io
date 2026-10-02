@@ -13,8 +13,19 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-<!-- Career on the left, profile photo on the right (stacks on narrow screens) -->
+<!-- Name, subtitle and Career on the left, profile photo on the right, tops aligned (stacks on narrow screens).
+     The layout's own header is hidden on this page and re-rendered inside the grid. -->
 <style>
+  .post > .post-header {
+    display: none;
+  }
+  .about-main > .post-title {
+    margin-top: 0;
+  }
+  .about-photo figure,
+  .about-photo img {
+    margin-top: 0;
+  }
   .about-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 28%;
@@ -37,6 +48,9 @@ announcements:
 
 <div class="about-grid">
 <div class="about-main" markdown="1">
+
+<h1 class="post-title">{{ site.title }}</h1>
+<p class="desc">{{ page.subtitle }}</p>
 
 ## Career
 

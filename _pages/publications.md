@@ -18,6 +18,8 @@ nav_order: 2
     }
   }
   .publications h2.bibliography {
+    color: var(--global-text-color);
+    text-align: left;
     margin-top: 1.25rem;
     padding-top: 0.75rem;
     margin-bottom: 0.75rem;
