@@ -13,44 +13,63 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-<!-- Name, subtitle and Career on the left, profile photo on the right, tops aligned (stacks on narrow screens).
+<!-- Name/subtitle and photo side by side with tops aligned at every width; Career below the name.
+     Wide screens: Career stays in the left column beside the photo. Narrow screens: Career spans the full width.
      The layout's own header is hidden on this page and re-rendered inside the grid. -->
 <style>
   .post > .post-header {
     display: none;
   }
-  .about-main > .post-title {
+  .about-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 28%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "head photo"
+      "career photo";
+    column-gap: 2rem;
+    align-items: start;
+  }
+  .about-head {
+    grid-area: head;
+  }
+  .about-head .post-title {
     margin-top: 0;
+  }
+  .about-career {
+    grid-area: career;
+  }
+  .about-career td:first-child {
+    white-space: nowrap;
+  }
+  .about-photo {
+    grid-area: photo;
   }
   .about-photo figure,
   .about-photo img {
     margin-top: 0;
   }
-  .about-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) 28%;
-    gap: 2rem;
-    align-items: start;
-  }
-  .about-main td:first-child {
-    white-space: nowrap;
-  }
   @media (max-width: 767px) {
     .about-grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr) 35%;
+      grid-template-rows: auto auto;
+      grid-template-areas:
+        "head photo"
+        "career career";
+      column-gap: 1rem;
     }
-    .about-photo {
-      order: -1;
-      max-width: 320px;
+    .about-head .post-title {
+      font-size: 1.75rem;
     }
   }
 </style>
 
 <div class="about-grid">
-<div class="about-main" markdown="1">
-
+<div class="about-head">
 <h1 class="post-title">{{ site.title }}</h1>
 <p class="desc">{{ page.subtitle }}</p>
+</div>
+<div class="about-career" markdown="1">
 
 ## Career
 
