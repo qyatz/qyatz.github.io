@@ -97,6 +97,11 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Render CV PDF 📄
+        run: |
+          sudo apt-get install -y fonts-noto-cjk
+          npx playwright install --with-deps chromium
+          node bin/render-cv-pdf.mjs
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
