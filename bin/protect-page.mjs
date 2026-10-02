@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Encrypt / decrypt password-protected pages (e.g. _hobbies/*.md).
+// Encrypt / decrypt password-protected pages (_pages/hobbies.md and _hobbies/*.md).
 //
 // The repository is public, so only the encrypted body is committed. The page
 // is decrypted in the browser by assets/js/protected-page.js.
@@ -9,7 +9,8 @@
 //   PAGE_PASSWORD=0000 node bin/protect-page.mjs decrypt <out.md> > <plain.md>
 //
 // <plain.md> is a normal Jekyll page: YAML front matter + Markdown body.
-// Keep plaintext files out of git (e.g. under the ignored _private/ folder).
+// Keep plaintext files out of git (e.g. under the ignored _private/ folder):
+//   _private/hobbies/index.md -> _pages/hobbies.md, baseball.md -> _hobbies/h1.md, travel.md -> _hobbies/h2.md
 
 import crypto from "node:crypto";
 import fs from "node:fs";
