@@ -2,7 +2,7 @@
 (() => {
   const MARKED_SRC = "https://cdn.jsdelivr.net/npm/marked@18.0.14/lib/marked.umd.js";
   const MARKED_SRI = "sha384-2vpGtuKqJvFlwJqYnf/wUMuzUfhUnYBt9oay0e2yaFcq0Dh6/aEbQ8YAOeKGzlYo";
-  const STORAGE_KEY = "protected-page-password";
+  const STORAGE_KEY = "protected-page-passwords";
 
   const fromBase64 = (value) => Uint8Array.from(atob(value), (c) => c.charCodeAt(0));
 
@@ -35,20 +35,36 @@
     return new TextDecoder().decode(plain);
   }
 
+  // Remember every password that worked in this tab, so sections with different
+  // passwords (e.g. hobbies and projects) do not overwrite each other.
   function readStored() {
     try {
-      return sessionStorage.getItem(STORAGE_KEY);
+      const list = JSON.parse(sessionStorage.getItem(STORAGE_KEY) || "[]");
+      return Array.isArray(list) ? list : [];
     } catch {
-      return null;
+      return [];
     }
   }
 
   function store(password) {
     try {
-      sessionStorage.setItem(STORAGE_KEY, password);
+      const list = readStored().filter((p) => p !== password);
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify([password, ...list].slice(0, 5)));
     } catch {
       /* storage unavailable; the user will be asked again next time */
     }
+  }
+
+  async function unlockWithStored(container) {
+    for (const password of readStored()) {
+      try {
+        await unlock(container, password);
+        return true;
+      } catch {
+        /* try the next one */
+      }
+    }
+    return false;
   }
 
   async function unlock(container, password) {
@@ -90,12 +106,9 @@
 
   function init() {
     document.querySelectorAll(".protected-page[data-payload]").forEach((container) => {
-      const stored = readStored();
-      if (stored) {
-        unlock(container, stored).catch(() => renderForm(container));
-      } else {
-        renderForm(container);
-      }
+      unlockWithStored(container).then((ok) => {
+        if (!ok) renderForm(container);
+      });
     });
   }
 
