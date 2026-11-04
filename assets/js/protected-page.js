@@ -71,6 +71,7 @@
     const markdown = await decrypt(container.dataset.payload, password);
     const marked = await loadMarked();
     container.innerHTML = marked.parse(markdown);
+    document.querySelector(".post-header .post-description")?.remove();
     store(password);
   }
 
