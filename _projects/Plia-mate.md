@@ -2,7 +2,7 @@
 layout: page
 title: Plia-mate
 description: 柔らかい外装をまとった、収納・展開できるヒューマノイドロボット
-img: assets/img/12.jpg
+img: assets/img/plia-mate/home.jpg
 importance: 3
 category: fun
 ---
@@ -32,6 +32,15 @@ category: fun
   .pm-road b { display: block; font-size: 1.05rem; }
   .pm table { width: 100%; }
   .pm td:first-child { white-space: nowrap; }
+  .pm-intro { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1.5rem; align-items: start; }
+  .pm-fig { margin: 0; }
+  .pm-fig img { width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+  .pm-fig figcaption { margin-top: 0.4rem; font-size: 0.85rem; color: var(--global-text-color-light); }
+  .pm-scenes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+  .pm-scenes .pm-fig { text-align: center; }
+  .pm-scenes .pm-fig img { width: auto; max-width: 100%; max-height: 420px; }
+  .pm-note { margin-top: 0.75rem; font-size: 0.85rem; color: var(--global-text-color-light); }
+  @media (max-width: 767px) { .pm-intro { grid-template-columns: 1fr; } }
   .pm-events { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
 </style>
 
@@ -45,8 +54,13 @@ category: fun
 </div>
 
 <h2>Plia-mate とは</h2>
+<div class="pm-intro">
+<div>
 <p class="pm-lead">Plia-mate は，「ベイマックス」のように人とインタラクティブにやり取りできることを目指した，<strong>柔らかい外装をまとった内骨格型のヒューマノイドロボット</strong>です．</p>
 <p>人とぶつかっても危なくない柔らかさと，自分の体を支えてものを持てる力強さを両立し，使わないときは小さく収納，必要なときに人型へ展開できるロボットを開発しています．開発は複数年にわたって継続し，2026年度は上半身の開発に取り組みます．</p>
+</div>
+<figure class="pm-fig"><img src="{{ '/assets/img/plia-mate/home.jpg' | relative_url }}" alt="家庭で子どもと絵本を読む Plia-mate のイメージ" loading="lazy"><figcaption>家庭で子どもに寄り添う Plia-mate（イメージ図，Google Gemini で生成）</figcaption></figure>
+</div>
 
 <h2>3つの特徴</h2>
 <div class="pm-grid">
@@ -54,6 +68,14 @@ category: fun
 <div class="pm-card"><div class="pm-icon"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></div><h3>収納・展開できる体</h3><p>使わないときはコンパクトに収納し，必要なときに人型へ展開．家庭での設置スペースや，別の場所への持ち運びの課題を解決します．</p></div>
 <div class="pm-card"><div class="pm-icon"><i class="fa-solid fa-comments"></i></div><h3>人と関わる AI</h3><p>画像や人の言葉を解釈して行動に反映する VLA（Vision-Language-Action）などの技術を応用し，人とのインタラクティブなやり取りを目指します．</p></div>
 </div>
+
+<h2>利用シーンのイメージ</h2>
+<p>使わないときは小さく畳んで箱やバッグに収納し，必要な場所へ持ち運んで人型に展開する――そんな使い方を目指しています．</p>
+<div class="pm-scenes">
+<figure class="pm-fig"><img src="{{ '/assets/img/plia-mate/storage.jpg' | relative_url }}" alt="箱に収納された Plia-mate のイメージ" loading="lazy"><figcaption>コンパクトに収納して届ける</figcaption></figure>
+<figure class="pm-fig"><img src="{{ '/assets/img/plia-mate/carry.jpg' | relative_url }}" alt="収納した Plia-mate を階段で運ぶイメージ" loading="lazy"><figcaption>収納した状態で持ち運ぶ</figcaption></figure>
+</div>
+<p class="pm-note">※ このページの画像は，Google Gemini で生成したイメージ図です．実際のロボットの外観とは異なります．</p>
 
 <h2>なぜ「柔らかい」ロボットなのか</h2>
 <p>ASIMO や Pepper，aibo のように，人の生活の中で活動し生活を補助するロボットは長く夢見られてきました．近年は高機能なヒューマノイドロボットが数多く開発されていますが，本格的に人と共生するロボットはまだ実現していません．</p>
