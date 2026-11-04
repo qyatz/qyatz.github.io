@@ -30,8 +30,6 @@ category: fun
   .pm-road li { padding: 1rem 1.25rem; border-left: 4px solid var(--pm-accent); background: var(--global-code-bg-color, transparent); border-radius: 0.25rem; }
   .pm-road li.pm-now { border-left-width: 8px; }
   .pm-road b { display: block; font-size: 1.05rem; }
-  .pm table { width: 100%; }
-  .pm td:first-child { white-space: nowrap; }
   .pm-intro { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1.5rem; align-items: start; }
   .pm-fig { margin: 0; }
   .pm-fig img { width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
@@ -96,27 +94,12 @@ category: fun
 <li><b>2028年度</b>全身の統合とタスクの実行</li>
 </ul>
 
-<h3>2026年度のスケジュール</h3>
-
-| 時期       | 内容                                             |
-| ---------- | ------------------------------------------------ |
-| 9月        | コンセプト検討                                   |
-| 10月〜12月 | Booster K1 を用いた外装・制御の検討              |
-| 10月〜2月  | 収納・展開可能な内骨格，外装，ハンドの設計・試作 |
-| 2月〜3月   | 内骨格・外装・ハンドの統合                       |
-| 1月〜6月   | ヒューマノイドの制御の実装                       |
-| 3月〜6月   | 展示                                             |
-| 7月        | 最終報告会                                       |
-
 <h2>展示予定</h2>
 <p>実際に多くの方にロボットに触れていただき，人とのやり取りの有効性を確かめるため，学内外のイベントへの出展を検討しています．</p>
 <div class="pm-events">
 <div class="pm-card"><h3><i class="fa-solid fa-school"></i> 学内イベント</h3><p>若葉祭（4月）<br>ホームカミングデイ（5月）<br>工大祭（10月）</p></div>
 <div class="pm-card"><h3><i class="fa-solid fa-people-group"></i> 学外の展示会</h3><p>Kyoto Micro Maker Faire（4月）<br>NT函館（5月）・NT金沢（6月）<br>Maker Faire Tokyo（9月）</p></div>
 </div>
-
-<h2>安全への取り組み</h2>
-<p>人とのやり取りを伴う動作は，まずマネキンを相手に実験し，常に緊急停止ボタンを押せる担当者を配置して実施します．展示までに十分な安全性を確認できない場合は，ロボットを動かさない展示やマネキンを用いたデモに切り替えます．</p>
 
 <h2>チーム</h2>
 <p>ロボット技術研究会のメンバーを中心に，学部生から博士課程まで多様な学年のメンバーで開発しています．CanSat，NHK「魔改造の夜」，XROBOCON，ROBO-ONE，研究など，ロボットの設計・製作経験が豊富なメンバーが集まり，社会人のアドバイザーにも支えられています．</p>
