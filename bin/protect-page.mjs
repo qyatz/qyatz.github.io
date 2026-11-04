@@ -11,7 +11,7 @@
 // <plain.md> is a normal Jekyll page: YAML front matter + Markdown body.
 // Keep plaintext files out of git (e.g. under the ignored _private/ folder):
 //   _private/hobbies/index.md -> _pages/hobbies.md, baseball.md -> _hobbies/h1.md, travel.md -> _hobbies/h2.md
-//   _private/projects/index.md -> _pages/projects.md, research.md -> _projects/1_project.md, humanoid.md -> _projects/4_project.md
+//   _private/projects/index.md -> _pages/projects.md, research.md -> _projects/1_project.md
 
 import crypto from "node:crypto";
 import fs from "node:fs";
