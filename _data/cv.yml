@@ -58,6 +58,12 @@ cv:
         date: "2026-06-30"
         summary: "日本機械学会 若手優秀講演フェロー賞 — ROBOMECH2025「全節共通駆動ワイヤと選択関節ロック解除機構を有する伸展型多関節アーム “Moray Arm S” の提案」"
 
+      - title: "Best Cheer Award, XROBOCON 2025"
+        awarder: "XROBOCON (NHK Enterprises)"
+        date: "2025-08-27"
+        url: "https://www.isct.ac.jp/en/news/5bhm2qiomffk"
+        summary: "Team MECHANEKKO — 大阪・関西万博 XROBOCON 2025 ベストチア賞（昇降機構開発を担当）"
+
       - title: "SICE Excellent Student Award"
         awarder: "The Society of Instrument and Control Engineers (SICE)"
         date: "2025-03-26"
@@ -67,24 +73,24 @@ cv:
         awarder: "CatchRobo Battle Contest"
         date: "2024-09"
         url: "https://catchrobo.net/"
-        summary: "Team 工業to科学 (Tokyo Institute of Technology) — 第14回キャチロボバトルコンテスト 2024 審査員特別賞"
+        summary: "Team 工業to科学 (Tokyo Institute of Technology) — 第14回キャチロボバトルコンテスト 2024 審査員特別賞（吸引ハンド開発を担当）"
 
-      - title: "Judges' Special Award, NHK \"Makaizo no Yoru\" No. 9"
+      - title: "Winner and Judges' Special Award, NHK \"Makaizo no Yoru\" No. 9"
         awarder: "NHK"
         date: "2024-01"
-        summary: "Team T工大 — NHK 魔改造の夜 第9回「おトイレ ゆか 宙返り」審査員特別賞"
+        summary: "Team T工大 — NHK 魔改造の夜 第9回「おトイレ ゆか 宙返り」優勝・審査員特別賞（機体統合を担当）"
 
       - title: "Best Mission Award 1st, ARLISS 2023"
         awarder: "ARLISS"
         date: "2023-09"
         url: "https://unisec.jp/archives/10330"
-        summary: "CanSat Project Tlaloc (Tokyo Institute of Technology)"
+        summary: "CanSat Project Tlaloc (Tokyo Institute of Technology) — 機体統合を担当"
 
       - title: "2nd Place Overall, ACTS 2nd Competition"
         awarder: "ACTS"
         date: "2021-11"
         url: "https://unisec.jp/archives/7897"
-        summary: "Team Elec. TETRA (Tokyo Institute of Technology) — ACTS 第二回大会 総合第二位"
+        summary: "Team Elec. TETRA (Tokyo Institute of Technology) — ACTS 第二回大会 総合第二位（ケーブル敷設機構開発を担当）"
 
       - title: "UNISEC Award, ACTS 2nd Competition"
         awarder: "ACTS"
