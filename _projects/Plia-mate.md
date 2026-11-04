@@ -30,8 +30,6 @@ category: fun
   .pm-road li { padding: 1rem 1.25rem; border-left: 4px solid var(--pm-accent); background: var(--global-code-bg-color, transparent); border-radius: 0.25rem; }
   .pm-road li.pm-now { border-left-width: 8px; }
   .pm-road b { display: block; font-size: 1.05rem; }
-  .pm table { width: 100%; }
-  .pm td:first-child { white-space: nowrap; }
   .pm-intro { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 1.5rem; align-items: start; }
   .pm-fig { margin: 0; }
   .pm-fig img { width: 100%; height: auto; border-radius: 0.75rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
@@ -95,18 +93,6 @@ category: fun
 <li><b>2027年度</b>下半身の開発</li>
 <li><b>2028年度</b>全身の統合とタスクの実行</li>
 </ul>
-
-<h3>2026年度のスケジュール</h3>
-
-| 時期       | 内容                                             |
-| ---------- | ------------------------------------------------ |
-| 9月        | コンセプト検討                                   |
-| 10月〜12月 | Booster K1 を用いた外装・制御の検討              |
-| 10月〜2月  | 収納・展開可能な内骨格，外装，ハンドの設計・試作 |
-| 2月〜3月   | 内骨格・外装・ハンドの統合                       |
-| 1月〜6月   | ヒューマノイドの制御の実装                       |
-| 3月〜6月   | 展示                                             |
-| 7月        | 最終報告会                                       |
 
 <h2>展示予定</h2>
 <p>実際に多くの方にロボットに触れていただき，人とのやり取りの有効性を確かめるため，学内外のイベントへの出展を検討しています．</p>
